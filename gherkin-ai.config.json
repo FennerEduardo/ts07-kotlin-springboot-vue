@@ -1,0 +1,28 @@
+{
+  "projectName": "transactional-system-kotlin-vue",
+  "architecture": "monolith",
+  "stack": {
+    "language": "kotlin",
+    "framework": "spring-boot",
+    "orm": "kotlin-orm",
+    "database": "mysql",
+    "validation": "kotlin-val",
+    "auth": "jwt-bcrypt",
+    "messaging": "none",
+    "testing": "kotlin-test"
+  },
+  "frontendStack": {
+    "framework": "vue",
+    "language": "javascript",
+    "bundler": "vite",
+    "unitTesting": "vitest",
+    "e2eTesting": "cypress"
+  },
+  "rules": {
+    "bcryptCostFactor": 12,
+    "jwtTtlSeconds": 3600,
+    "strictLayerBoundaries": true,
+    "coverageTarget": 85
+  },
+  "outputDir": "./generated-specs"
+}
