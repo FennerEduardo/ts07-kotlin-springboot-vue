@@ -9,7 +9,7 @@
     "/api/v1/orquestaci-n-de-saga-con-corrutinas-en-kotlin-spring-boot": {
       "post": {
         "summary": "POST /api/v1/orquestaci-n-de-saga-con-corrutinas-en-kotlin-spring-boot",
-        "operationId": "processOrquestacindeSagaconCorrutinasenKotlinSpringBoot",
+        "operationId": "processOrquestacionDeSagaConCorrutinasEnKotlinSpringBoot",
         "security": [],
         "requestBody": {
           "required": true,

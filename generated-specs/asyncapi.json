@@ -7,12 +7,12 @@
   },
   "defaultContentType": "application/json",
   "channels": {
-    "orquestacindesagaconcorrutinasenkotlinspringboot/events/ordercreatedevent": {
+    "orquestaciondesagaconcorrutinasenkotlinspringboot/events/ordercreatedevent": {
       "bindings": {
         "rabbitmq": {
           "is": "routingKey",
           "queue": {
-            "name": "orquestacindesagaconcorrutinasenkotlinspringboot.ordercreatedevent.queue",
+            "name": "orquestaciondesagaconcorrutinasenkotlinspringboot.ordercreatedevent.queue",
             "durable": true,
             "exclusive": false,
             "autoDelete": false
@@ -20,7 +20,7 @@
           "bindingVersion": "0.2.0"
         },
         "kafka": {
-          "topic": "orquestacindesagaconcorrutinasenkotlinspringboot.ordercreatedevent",
+          "topic": "orquestaciondesagaconcorrutinasenkotlinspringboot.ordercreatedevent",
           "partitions": 3,
           "replicas": 2,
           "bindingVersion": "0.3.0"
