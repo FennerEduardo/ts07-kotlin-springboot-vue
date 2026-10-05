@@ -8,7 +8,7 @@ import org.junit.platform.suite.api.SelectClasspathResource
 import org.junit.platform.suite.api.Suite
 
 /** Runs ./features (copied as test resources). Pending steps are reported as skipped. */
-@Suite
+@Suite(failIfNoTests = false) // the runtime integration run (tag "integration") selects no scenarios
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.example.transactionalsystemkotlinvue.bdd")

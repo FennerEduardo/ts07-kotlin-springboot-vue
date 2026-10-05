@@ -35,10 +35,12 @@ dependencies {
     implementation("io.opentelemetry:opentelemetry-api")
     implementation("io.opentelemetry:opentelemetry-sdk")
     implementation("io.opentelemetry:opentelemetry-exporter-otlp")
+    implementation("com.rabbitmq:amqp-client")
     runtimeOnly("org.postgresql:postgresql")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
+    testImplementation("io.opentelemetry:opentelemetry-sdk-testing")
     testImplementation("io.cucumber:cucumber-java")
     testImplementation("io.cucumber:cucumber-junit-platform-engine")
     testImplementation("org.junit.platform:junit-platform-suite")
@@ -59,4 +61,17 @@ tasks.processTestResources {
 tasks.withType<Test> {
     useJUnitPlatform()
     testLogging { events("passed", "skipped", "failed") }
+}
+
+// Runtime integration tests (tag "integration") need DATABASE_URL / AMQP_URL: gradle integrationTest
+tasks.test {
+    useJUnitPlatform { excludeTags("integration") }
+}
+
+val integrationTest by tasks.registering(Test::class) {
+    description = "Runs the runtime integration tests against PostgreSQL and RabbitMQ."
+    group = "verification"
+    testClassesDirs = sourceSets.test.get().output.classesDirs
+    classpath = sourceSets.test.get().runtimeClasspath
+    useJUnitPlatform { includeTags("integration") }
 }

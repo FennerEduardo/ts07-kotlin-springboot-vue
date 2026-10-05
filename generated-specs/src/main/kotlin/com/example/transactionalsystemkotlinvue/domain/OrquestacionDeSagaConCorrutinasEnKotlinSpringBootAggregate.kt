@@ -35,6 +35,16 @@ class OrquestacionDeSagaConCorrutinasEnKotlinSpringBootAggregate(val id: String)
         if (id.isBlank()) throw DomainValidationException("OrquestacionDeSagaConCorrutinasEnKotlinSpringBoot id is required")
     }
 
+    companion object {
+        /** Rebuilds an aggregate from persisted state; no events are recorded. */
+        @JvmStatic
+        fun restore(id: String, state: OrquestacionDeSagaConCorrutinasEnKotlinSpringBootState, version: Long): OrquestacionDeSagaConCorrutinasEnKotlinSpringBootAggregate =
+            OrquestacionDeSagaConCorrutinasEnKotlinSpringBootAggregate(id).also {
+                it.state = state
+                it.version = version
+            }
+    }
+
     fun processOrquestacionDeSagaConCorrutinasEnKotlinSpringBoot(command: OrquestacionDeSagaConCorrutinasEnKotlinSpringBootCommand): OrquestacionDeSagaConCorrutinasEnKotlinSpringBootDomainEvent {
         assertValid(command)
         return record(OrquestacionDeSagaConCorrutinasEnKotlinSpringBootEventType.OrderCreated, command.payload)

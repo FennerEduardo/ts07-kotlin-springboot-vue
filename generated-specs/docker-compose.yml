@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # Host Environment SDK Isolation Sandbox
   app:
-    image: node:20-alpine
+    image: gradle:8.10-jdk17
     container_name: transactional-system-kotlin-vue-app
     volumes:
       - .:/app
