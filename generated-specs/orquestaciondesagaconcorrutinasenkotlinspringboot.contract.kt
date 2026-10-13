@@ -3,7 +3,7 @@
 // Feature: Orquestación de Saga con Corrutinas en Kotlin Spring Boot
 // Architecture: monolith
 // ==========================================================================
-package transactionalsystemkotlinvue.orquestaciondesagaconcorrutinasenkotlinspringboot
+package com.example.transactionalsystemkotlinvue.orquestaciondesagaconcorrutinasenkotlinspringboot
 
 import java.util.UUID
 import java.time.Instant

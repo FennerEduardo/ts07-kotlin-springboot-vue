@@ -1,9 +1,9 @@
 {
   "asyncapi": "2.6.0",
   "info": {
-    "title": "Orquestación de Saga con Corrutinas en Kotlin Spring Boot AsyncAPI Specification",
+    "title": "transactional-system-kotlin-vue Events",
     "version": "1.0.0",
-    "description": "Auto-generated AsyncAPI events for Orquestación de Saga con Corrutinas en Kotlin Spring Boot from Gherkin feature spec."
+    "description": "Events of transactional-system-kotlin-vue, merged from 1 feature contract(s) in contracts/."
   },
   "defaultContentType": "application/json",
   "channels": {

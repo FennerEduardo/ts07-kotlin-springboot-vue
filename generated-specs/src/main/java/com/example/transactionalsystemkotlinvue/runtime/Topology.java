@@ -6,7 +6,7 @@ import java.util.Map;
 
 /** Topic exchange -> consumer queue, which dead-letters rejected messages to a fanout DLX -> DLQ. */
 public record Topology(String exchange, String queue, String dlx, String dlq) {
-    public static final Topology DEFAULT = new Topology("orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot.events", "orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot.consumer", "orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot.dlx", "orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot.dlq");
+    public static final Topology DEFAULT = new Topology("transactional-system-kotlin-vue.events", "transactional-system-kotlin-vue.consumer", "transactional-system-kotlin-vue.dlx", "transactional-system-kotlin-vue.dlq");
 
     public static Topology forPrefix(String prefix) {
         return new Topology(prefix + ".events", prefix + ".consumer", prefix + ".dlx", prefix + ".dlq");

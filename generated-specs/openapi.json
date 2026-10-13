@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Orquestación de Saga con Corrutinas en Kotlin Spring Boot API Specification",
+    "title": "transactional-system-kotlin-vue API",
     "version": "1.0.0",
-    "description": "Auto-generated OpenAPI specification for Orquestación de Saga con Corrutinas en Kotlin Spring Boot from Gherkin feature spec."
+    "description": "Service API of transactional-system-kotlin-vue, merged from 1 feature contract(s) in contracts/."
   },
   "paths": {
     "/api/v1/orquestaci-n-de-saga-con-corrutinas-en-kotlin-spring-boot": {
