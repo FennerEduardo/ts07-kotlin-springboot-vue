@@ -6,9 +6,9 @@
     "description": "Auto-generated OpenAPI specification for Orquestación de Saga con Corrutinas en Kotlin Spring Boot from Gherkin feature spec."
   },
   "paths": {
-    "/api/v1/orquestaci-n-de-saga-con-corrutinas-en-kotlin-spring-boot": {
+    "/api/v1/orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot": {
       "post": {
-        "summary": "POST /api/v1/orquestaci-n-de-saga-con-corrutinas-en-kotlin-spring-boot",
+        "summary": "POST /api/v1/orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot",
         "operationId": "processOrquestacionDeSagaConCorrutinasEnKotlinSpringBoot",
         "security": [],
         "requestBody": {
