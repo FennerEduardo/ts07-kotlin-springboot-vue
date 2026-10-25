@@ -4,6 +4,7 @@ plugins {
     kotlin("jvm") version "2.3.21"
     kotlin("plugin.spring") version "2.3.21"
     kotlin("plugin.jpa") version "2.3.21"
+    jacoco
 }
 
 group = "com.example"
@@ -69,6 +70,15 @@ tasks.withType<Test> {
 // Runtime integration tests (tag "integration") need DATABASE_URL / AMQP_URL: gradle integrationTest
 tasks.test {
     useJUnitPlatform { excludeTags("integration") }
+    finalizedBy(tasks.jacocoTestReport)
+}
+
+// Coverage for ghk converge and ghk quality: build/reports/jacoco/test/jacocoTestReport.{xml,csv}
+tasks.jacocoTestReport {
+    reports {
+        xml.required = true
+        csv.required = true
+    }
 }
 
 val integrationTest by tasks.registering(Test::class) {

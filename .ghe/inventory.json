@@ -1,0 +1,433 @@
+{
+  "version": "2",
+  "cliVersion": "3.2.1",
+  "features": {
+    "features/kotlin_saga_coroutines.feature": {
+      "checksum": "3900f0e4788eebf7e1e867adea5e01de2a0a604d41485b58e82f63d518ecd0f8",
+      "contracts": {
+        "contracts/kotlin-saga-coroutines/ADR-OrquestacionDeSagaConCorrutinasEnKotlinSpringBoot.md": "fe1bca171aff565ac5c85f54329b5e584a2efbec5328e455b5f0f3c388b14d30",
+        "contracts/kotlin-saga-coroutines/openapi.json": "4b6610bfb121ece87ab3e0b71cfce9761834098a6d2a4d3fb7424a752b62137f",
+        "openapi.json": "cd6fd1bc37279f69cb6cee5f0e0198c3c3b75941848f52f6f74026cef60b1222",
+        "contracts/kotlin-saga-coroutines/asyncapi.json": "ea88f5296847815b4cf8b9f9f07c5b233c721fbfa120b2768e42310c920df135",
+        "asyncapi.json": "c1a212da545f1d491a7829895167e503e54b53f9baf29998c5fb1fe621ea71c4",
+        "orquestaciondesagaconcorrutinasenkotlinspringboot.contract.kt": "8cffa15ab20bc094e5316a66d6c0a8752b460120b180185ad60a6516cc2c6d5c"
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "filePath": ".dockerignore",
+      "type": "test",
+      "checksum": "ee21c5cdb3bf1a9909fe7b96fadbaf5ff168620c7aa1f2f77404493ccb5b5b22",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": ".env.example",
+      "type": "config",
+      "checksum": "5d01859094401a527c268fda97c7eb0f409ebc7813ec52b852e29fd63915c568",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "ADR-001-architecture-decisions.md",
+      "type": "other",
+      "checksum": "fe1bca171aff565ac5c85f54329b5e584a2efbec5328e455b5f0f3c388b14d30",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "asyncapi.json",
+      "type": "contract",
+      "checksum": "c1a212da545f1d491a7829895167e503e54b53f9baf29998c5fb1fe621ea71c4",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "build.gradle.kts",
+      "type": "config",
+      "checksum": "463368cf8e5f611354fa8d54f77ed7e968f77ce0ec1f832abc98618301b44c4c",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "contracts/kotlin-saga-coroutines/ADR-OrquestacionDeSagaConCorrutinasEnKotlinSpringBoot.md",
+      "type": "other",
+      "checksum": "fe1bca171aff565ac5c85f54329b5e584a2efbec5328e455b5f0f3c388b14d30",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "contracts/kotlin-saga-coroutines/asyncapi.json",
+      "type": "contract",
+      "checksum": "ea88f5296847815b4cf8b9f9f07c5b233c721fbfa120b2768e42310c920df135",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "contracts/kotlin-saga-coroutines/openapi.json",
+      "type": "openapi",
+      "checksum": "4b6610bfb121ece87ab3e0b71cfce9761834098a6d2a4d3fb7424a752b62137f",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "docker-compose.yml",
+      "type": "config",
+      "checksum": "46e917af9b84dca434fa245cb94669da752f28e949a7a572385c1bbfd93e7fca",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "Dockerfile",
+      "type": "test",
+      "checksum": "74aea22250c16aabe73a82a15e993d4117819e7256c87eb4fee008491de70b71",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "features/kotlin_saga_coroutines.feature",
+      "type": "other",
+      "checksum": "3900f0e4788eebf7e1e867adea5e01de2a0a604d41485b58e82f63d518ecd0f8",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "fixtures.ts",
+      "type": "fixture",
+      "checksum": "80ccdac37398546a1a722ef6010785413680fbbe39c627f2d95ad2d145e796a1",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/index.html",
+      "type": "test",
+      "checksum": "c1ad960409bbacc4e11cba8279225f5c2b9c550ec33d43d9ed25e30f05a0a553",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/package.json",
+      "type": "test",
+      "checksum": "226032b32cc3a747269dd71f2e58aebd3c20df964e291f2d49bbcf7383a9f1e0",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/src/api/orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot-client.test.ts",
+      "type": "test",
+      "checksum": "255b075cf86314a4f1bf0abc2b7054a8027d1fc534b406d95f6f35d319706868",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/src/api/orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot-client.ts",
+      "type": "test",
+      "checksum": "a4adadd38a0200b062a4f4b564dca854a6f696d2704f0bb88beaf5eb68da5ffd",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/src/components/OrquestacionDeSagaConCorrutinasEnKotlinSpringBootPanel.test.ts",
+      "type": "test",
+      "checksum": "29e2178c091c8faac4baf2ae20b914113c2eb28674e631c0e55df1d5ac90b1da",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/src/components/OrquestacionDeSagaConCorrutinasEnKotlinSpringBootPanel.vue",
+      "type": "test",
+      "checksum": "67f830c45b8f91cf35c6742033d1012135a3b6e4029b4063312d4a0c4e1aadae",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/src/env.d.ts",
+      "type": "test",
+      "checksum": "495bc6291784edae53cb91ba0783ede95408cbe6f2060e87ebd39f79627d7c03",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/src/main.ts",
+      "type": "test",
+      "checksum": "301d46d0fe12012c5952c2b6d1362f83d947e3f9df426a9367d2d255985626d5",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/src/stores/orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot.store.test.ts",
+      "type": "test",
+      "checksum": "de354ec75aea908a9b6e3efb8bb3b52c0507d10d089d5c4ce77db17a926cd616",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/src/stores/orquestacion-de-saga-con-corrutinas-en-kotlin-spring-boot.store.ts",
+      "type": "test",
+      "checksum": "ab19e44530124857b9dc1bc6c177c0199ad4108db3dcadce0a2269b2df35f445",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/tsconfig.json",
+      "type": "test",
+      "checksum": "db9fe19dc1e886024565a4932e58a2b9920b6e6a4fb40196d81bbecb3bbfd104",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "frontend/vite.config.ts",
+      "type": "test",
+      "checksum": "aedec4031f42c268137d160947bd8120b715b9a25f25302d57b41b0567a220f2",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "openapi.json",
+      "type": "openapi",
+      "checksum": "cd6fd1bc37279f69cb6cee5f0e0198c3c3b75941848f52f6f74026cef60b1222",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "orquestaciondesagaconcorrutinasenkotlinspringboot.contract.kt",
+      "type": "contract",
+      "checksum": "8cffa15ab20bc094e5316a66d6c0a8752b460120b180185ad60a6516cc2c6d5c",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "prompts/backend-agent.md",
+      "type": "prompt",
+      "checksum": "2f936f04eb0e565703ba76a1bee41377ece5d6a8b0aebbacf952e9d234b1cc05",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "prompts/domain-agent.md",
+      "type": "prompt",
+      "checksum": "bff5a9dc19bc7722e45713c1751cafad1cd438e135c71deb55a239011d4ddc8d",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "prompts/qa-agent.md",
+      "type": "prompt",
+      "checksum": "aa7088e18c7ab992d335cb0ff933f310dbe3f6aa87468d6cb97052f68c2bf350",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "seed.sql",
+      "type": "fixture",
+      "checksum": "d0b15ecd1ebc2de77a36d1245fd01d5c572c1f49403108f1559e9a7d589b4177",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "settings.gradle.kts",
+      "type": "config",
+      "checksum": "b3586e32c89c6e899002ea70098183521241e80774f35dd8672321b0e542c724",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/api/HealthController.java",
+      "type": "test",
+      "checksum": "1bf7dcdb87982c1b416523a6661e938bcbb4e97b304f5d386a1107bf39d5fc33",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/api/OrquestacionDeSagaConCorrutinasEnKotlinSpringBootController.java",
+      "type": "test",
+      "checksum": "6094808e62d0e0ecffef2f645e9b504678cf09770831b687503756632f19f06f",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/auth/JwtTenantFilter.java",
+      "type": "test",
+      "checksum": "01e3111c1bc5e4bf7d5735ecca0c672af5e4ea481c18ecc7efc6ed5ce1c83739",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/infrastructure/telemetry/OpenTelemetryConfig.java",
+      "type": "test",
+      "checksum": "ab8581d5961892d0f3a39754413bb742ca6b6fcd8bcb557e5758887cee5d3286",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/Broker.java",
+      "type": "test",
+      "checksum": "d71082817f903a191041deab3ad8e39d8a432952b15efe8b993c66f1848348ee",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/BrokerMessage.java",
+      "type": "test",
+      "checksum": "5d30479ad124bccd8365234ee8b36d96c90e5ce04b536fe349f267419487a92d",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/CommandService.java",
+      "type": "test",
+      "checksum": "e272d8c81ff8714357a060232276b7e3fdc09a575256c264a67d3e9f65036bc0",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/ConnectionFactory.java",
+      "type": "test",
+      "checksum": "f763128481eb427da278f370515fdb9c799501c038db932f5e457e13772133ff",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/EventPublisher.java",
+      "type": "test",
+      "checksum": "1c29c635c70e9af6ff620455ce86e70dc4ac0300f7fea478ecb5988e9319edd6",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/EventSubscription.java",
+      "type": "test",
+      "checksum": "c263b253affa1444d045fd3414758e474db787f70e37b9934b1b09dd6f086abb",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/InboxConsumer.java",
+      "type": "test",
+      "checksum": "2fcb1cc8fd9de71f94118a212c0ac741c9c2828377317b55e925d8b9cd98f0b5",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/OutboxRelay.java",
+      "type": "test",
+      "checksum": "576bb737b6b176162cef855c810b71ec4c9f2109d7f9800d3513a90c2084470c",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/PubSubBroker.java",
+      "type": "test",
+      "checksum": "f89ee2ad0de50a58ac9e32f5df01bf6de1b7656ea383ec5c6f242f6134c66385",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/RabbitMqBroker.java",
+      "type": "test",
+      "checksum": "5d267668c1318eb58bed2ec4f49dfcc7b31268a99b4e18588f709324d52d3418",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/RuntimeConfiguration.java",
+      "type": "test",
+      "checksum": "2d65b9f5d7dc4d6ecbe6eaa09cc1f384b8cde820ec4462a81d8bd4fd3802cd68",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/SagaOrchestrator.java",
+      "type": "test",
+      "checksum": "f4446dd0af8db108550ea2e04862ae7cfabae4b325e2bd7f7aaf3d7f0e742ec2",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/Schema.java",
+      "type": "test",
+      "checksum": "468547d41936d0dd1a2fe963291e625900b9a04eaa3d7017d911f1259454bbfd",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/Telemetry.java",
+      "type": "test",
+      "checksum": "632752b24c8c2b30510300074dbcd4810f0ba1623052c9e32356a89496551b7b",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/Topology.java",
+      "type": "test",
+      "checksum": "354a6e1803b7d945582869d9de733d3ce16958a1215a8e3f179f200aca6d7ebf",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/kotlin/com/example/transactionalsystemkotlinvue/Application.kt",
+      "type": "test",
+      "checksum": "70fe0ebeaec3c0dccc36b134991be3058003ffd9dbbc320a3a0c9f795d47b407",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/kotlin/com/example/transactionalsystemkotlinvue/domain/DomainValidationException.kt",
+      "type": "test",
+      "checksum": "23f3e7f04b175e29ce814f6ff3a0702cacb58a65e0fec3eaf18a22fb16b431f7",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/kotlin/com/example/transactionalsystemkotlinvue/domain/OrquestacionDeSagaConCorrutinasEnKotlinSpringBootAggregate.kt",
+      "type": "test",
+      "checksum": "5c79bd4bf903f28cc279a844404b685bea3358ae53fca523610673240fc52c50",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/main/resources/application.properties",
+      "type": "test",
+      "checksum": "770d8e5aed9ca3b0d8782074acfac542636dc0fa0c210a91ae1d6ca0df0de67d",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/test/java/com/example/transactionalsystemkotlinvue/api/OrquestacionDeSagaConCorrutinasEnKotlinSpringBootHttpIntegrationTest.java",
+      "type": "test",
+      "checksum": "35d828f602699bc007f0db17bb727e4146324483f405cb2b33bf40e62cb4d364",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/test/java/com/example/transactionalsystemkotlinvue/runtime/RuntimeIntegrationTest.java",
+      "type": "test",
+      "checksum": "ad7798ee63a030da1c4f96e03614c2c5ebb06635db7c948a7c38627ba5924fe1",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/test/kotlin/com/example/transactionalsystemkotlinvue/bdd/OrquestacionDeSagaConCorrutinasEnKotlinSpringBootSteps.kt",
+      "type": "test",
+      "checksum": "5f5c09ef224a594563e382292499a3806e8e2742fedfcc4b8d42a62d89784034",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/test/kotlin/com/example/transactionalsystemkotlinvue/bdd/RunCucumberTest.kt",
+      "type": "test",
+      "checksum": "35e3a511c88e78f528961d65fb7bfc2eb58a71eb20cf385867629231b1eef2c6",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    },
+    {
+      "filePath": "src/test/kotlin/com/example/transactionalsystemkotlinvue/domain/OrquestacionDeSagaConCorrutinasEnKotlinSpringBootAggregateTest.kt",
+      "type": "test",
+      "checksum": "7b1f06de4976ae082d3fbf62a0dcb036b575b2543c797e76c16c0a5da3094676",
+      "feature": "features/kotlin_saga_coroutines.feature",
+      "generatedAt": "2026-10-25T05:16:53.563Z"
+    }
+  ],
+  "executions": []
+}
