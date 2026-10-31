@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "cliVersion": "3.2.1",
+  "cliVersion": "3.2.2",
   "features": {
     "features/kotlin_saga_coroutines.feature": {
       "checksum": "3900f0e4788eebf7e1e867adea5e01de2a0a604d41485b58e82f63d518ecd0f8",
