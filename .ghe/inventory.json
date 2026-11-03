@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "cliVersion": "3.2.2",
+  "cliVersion": "3.3.0",
   "features": {
     "features/kotlin_saga_coroutines.feature": {
       "checksum": "3900f0e4788eebf7e1e867adea5e01de2a0a604d41485b58e82f63d518ecd0f8",
@@ -25,9 +25,9 @@
     {
       "filePath": ".env.example",
       "type": "config",
-      "checksum": "5d01859094401a527c268fda97c7eb0f409ebc7813ec52b852e29fd63915c568",
+      "checksum": "e49beb65e3a990ac6bbfa1972959c467cd5f202e5b9ce62fee45002095ebffb7",
       "feature": "features/kotlin_saga_coroutines.feature",
-      "generatedAt": "2026-10-25T05:16:53.563Z"
+      "generatedAt": "2026-11-03T13:48:43.083Z"
     },
     {
       "filePath": "ADR-001-architecture-decisions.md",
@@ -74,9 +74,9 @@
     {
       "filePath": "docker-compose.yml",
       "type": "config",
-      "checksum": "46e917af9b84dca434fa245cb94669da752f28e949a7a572385c1bbfd93e7fca",
+      "checksum": "d053b9464272321e8ff92f1c8de8fd171d4205da0d9f929a4f74de77db1bc8c9",
       "feature": "features/kotlin_saga_coroutines.feature",
-      "generatedAt": "2026-10-25T05:16:53.563Z"
+      "generatedAt": "2026-11-03T13:48:43.083Z"
     },
     {
       "filePath": "Dockerfile",
@@ -284,9 +284,9 @@
     {
       "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/ConnectionFactory.java",
       "type": "test",
-      "checksum": "f763128481eb427da278f370515fdb9c799501c038db932f5e457e13772133ff",
+      "checksum": "b35615b30f39b07af65e7c070867f65abfd770081b5afb9da4b1694956260959",
       "feature": "features/kotlin_saga_coroutines.feature",
-      "generatedAt": "2026-10-25T05:16:53.563Z"
+      "generatedAt": "2026-11-03T13:48:43.083Z"
     },
     {
       "filePath": "src/main/java/com/example/transactionalsystemkotlinvue/runtime/EventPublisher.java",
