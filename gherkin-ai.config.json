@@ -5,7 +5,7 @@
     "language": "kotlin",
     "framework": "spring-boot",
     "orm": "kotlin-orm",
-    "database": "mysql",
+    "database": "postgresql",
     "validation": "kotlin-val",
     "auth": "jwt-bcrypt",
     "messaging": "none",
